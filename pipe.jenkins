@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage("step connect to server") {
             steps {
-                sh 'ssh root@167.235.253.89 \'cd /home/web && git pull\''
+                sh 'ssh root@167.235.253.89 \'cd home/web && git pull\''
                 sh 'ssh root@167.235.253.89 \'cd sudo systemctl restart nginx\''
             }
         }
