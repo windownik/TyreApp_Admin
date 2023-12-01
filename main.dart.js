@@ -84512,7 +84512,7 @@ return A.C($async$vD,r)},
 cs(){var s=0,r=A.D(t.y),q,p=this,o,n,m
 var $async$cs=A.E(function(a,b){if(a===1)return A.A(b,r)
 while(true)switch(s){case 0:s=3
-return A.v(A.rI(A.cz("http","167.235.253.89:10099","/create_access_token",A.ab(["refresh_token",p.r,"device_id",p.d,"device_name",p.e],t.N,t.z))),$async$cs)
+return A.v(A.rI(A.cz("http","167.235.253.89:10099","/create_access_token",A.ab(["refresh_token",p.r,"device_id",p.d,"device_name",p.e,"app_name","tyre_app_admin"],t.N,t.z))),$async$cs)
 case 3:m=b
 if(m.b!==200){q=!1
 s=1
@@ -84528,7 +84528,7 @@ yF(a,b){return this.agQ(a,b)},
 agQ(a,b){var s=0,r=A.D(t.wC),q,p=this,o,n,m,l,k,j,i
 var $async$yF=A.E(function(c,d){if(c===1)return A.A(d,r)
 while(true)switch(s){case 0:s=3
-return A.v(A.rI(A.cz("http","167.235.253.89:10099","/check_sms",A.ab(["phone",a,"sms_code",b,"device_id",p.d,"device_name",p.e],t.N,t.z))),$async$yF)
+return A.v(A.rI(A.cz("http","167.235.253.89:10099","/check_sms",A.ab(["phone",a,"sms_code",b,"device_id",p.d,"device_name",p.e,"app_name","tyre_app_admin"],t.N,t.z))),$async$yF)
 case 3:o=d
 n=B.a7.eb(0,A.dX(A.dW(o.e).c.a.h(0,"charset")).bT(0,o.w),null)
 m=o.b
@@ -84548,7 +84548,7 @@ while(true)switch(s){case 0:o=t.N,n=t.z,m=0
 case 3:if(!(m<2)){s=4
 break}++m
 s=5
-return A.v(A.eS(A.cz("http","167.235.253.89:10099","/log_out",A.ab(["access_token",p.f,"device_id",p.d],o,n))),$async$uQ)
+return A.v(A.eS(A.cz("http","167.235.253.89:10099","/log_out",A.ab(["access_token",p.f,"device_id",p.d,"app_name","tyre_app_admin"],o,n))),$async$uQ)
 case 5:l=b.b
 s=l===401?6:7
 break
@@ -84776,7 +84776,7 @@ while(true)switch(s){case 0:o=t.N,n=t.z,m=0
 case 3:if(!(m<2)){s=4
 break}++m
 s=5
-return A.v(A.rI(A.cz("http","167.235.253.89:10099","/change_password",A.ab(["access_token",p.f,"login",a,"password",b],o,n))),$async$tw)
+return A.v(A.rI(A.cz("http","167.235.253.89:10099","/change_password",A.ab(["access_token",p.f,"login",a,"password",b,"app_name","tyre_app_pro"],o,n))),$async$tw)
 case 5:l=d.b
 s=l===401?6:7
 break
